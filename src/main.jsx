@@ -15,7 +15,7 @@ const router = createBrowserRouter(
       path: '/',
       element: <App />,
       children: [
-        // a partir disso aq, tá dando erro, nao sei como arruma
+       
        { index: true, element: <Home /> },
         { path: 'contato', element: <Contato /> },
        { path: 'detalhes', element: <Detalhes/>},
